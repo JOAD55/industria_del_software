@@ -18,8 +18,12 @@ header h1 {
     text-align: center;
 }
 
+header div {
+    text-align: center;
+}
+
 .container {
-    width: 400px;
+    width: 600px;
     margin: 0 auto;
 }
 
@@ -70,4 +74,24 @@ footer a:hover {
 
 .sub {
     text-align: center;
+}
+
+a {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+.return {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+#return {
+    border-radius: 5rem;
 }
